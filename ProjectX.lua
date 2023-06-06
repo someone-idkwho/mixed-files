@@ -2168,5 +2168,5 @@ do
 	end
 end
 
-print("huehehe -kata gerald)")
+print("someone (idk who) was here :\)")
 return library
