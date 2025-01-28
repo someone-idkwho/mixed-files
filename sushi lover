@@ -208,5 +208,14 @@ discordSection:addButton(syn and "Join the Discord server" or "Copy Discord Link
         })
         return
     end
-    setclipboard("https://www.discord.com/invite/afSxatJjTg")
+end)
+
+local function CloseGUI()
+    Nova:toggle()
+end
+
+UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+    if not gameProcessedEvent and input.KeyCode == Enum.KeyCode.RightBracket then
+        CloseGUI()
+    end
 end)
