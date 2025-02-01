@@ -1,5 +1,5 @@
 local NovaLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/someone-idkwho/mixed-files/refs/heads/main/ProjectX.lua"))()
-local Nova = NovaLibrary.new("Nova | [UVS] Universal Vehicle Script (UPDATED) | Jason", 5013109572)
+local Nova = NovaLibrary.new("Nova | [UVS] Universal Vehicle Script (UPDATED) | Jason", 501310957269)
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
